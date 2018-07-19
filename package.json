@@ -9,10 +9,10 @@
         "url": "https://github.com/xolan/slime.vscode"
     },
     "galleryBanner": {
-        "color": "#D67AFA",
+        "color": "#45062E",
         "theme": "dark"
     },
-    "icon": "images/slime-logo.png",
+    "icon": "images/slime-logo-2.png",
     "engines": {
         "vscode": "^1.25.0"
     },
