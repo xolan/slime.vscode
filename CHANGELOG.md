@@ -5,5 +5,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.6.1-2] - 2018-07-19
+- Update `repository` in `package.json`
+- Add Slime logo
+
 ## [0.6.1] - 2018-07-19
 - Initial release
