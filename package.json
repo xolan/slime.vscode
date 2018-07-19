@@ -1,0 +1,27 @@
+{
+    "name": "slime",
+    "displayName": "Slime",
+    "description": "Slime Language",
+    "version": "0.6.1",
+    "publisher": "xolan",
+    "repository": "github:xolan/slime.vscode",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "slime",
+            "aliases": ["Slime", "slime"],
+            "extensions": [".slime"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "slime",
+            "scopeName": "text.slime",
+            "path": "./syntaxes/slime.tmLanguage"
+        }]
+    }
+}

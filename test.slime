@@ -1,0 +1,14 @@
+/ This is a line comment
+
+doctype html
+html
+  head
+    meta name="keywords" description="Slime"
+    title = site_title
+    javascript:
+      alert('Slime supports embedded javascript!');
+  body
+    #id.class
+      ul
+        = Enum.map [1, 2], fn x ->
+          li = x
