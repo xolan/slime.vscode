@@ -2,7 +2,7 @@
     "name": "slime",
     "displayName": "Slime",
     "description": "Slime Language",
-    "version": "0.6.1-2",
+    "version": "0.6.2",
     "publisher": "xolan",
     "repository": {
         "type": "git",
@@ -12,7 +12,7 @@
         "color": "#D67AFA",
         "theme": "dark"
     },
-    "icon": "iamges/slime-logo.png",
+    "icon": "images/slime-logo.png",
     "engines": {
         "vscode": "^1.25.0"
     },

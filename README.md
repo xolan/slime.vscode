@@ -7,6 +7,10 @@ Based on: https://github.com/hedgesky/slime.tmbundle
 
 ## Release Notes
 
+### 0.6.2
+
+Fix publish
+
 ### 0.6.1-2
 
 Update `repository` in `package.json`
