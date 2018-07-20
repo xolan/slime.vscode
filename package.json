@@ -2,7 +2,7 @@
     "name": "slime",
     "displayName": "Slime",
     "description": "Slime Language",
-    "version": "0.6.2",
+    "version": "1.0.0",
     "publisher": "xolan",
     "repository": {
         "type": "git",
@@ -26,6 +26,12 @@
             "extensions": [".slime"],
             "configuration": "./language-configuration.json"
         }],
+        "snippets": [
+            {
+                "language": "slime",
+                "path": "./snippets/snippets.json"
+            }
+        ],
         "grammars": [{
             "language": "slime",
             "scopeName": "text.slime",

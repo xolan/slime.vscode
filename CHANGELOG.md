@@ -1,9 +1,10 @@
 # Change Log
 All notable changes to the "slime" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
+
+## [1.0.0] - 2018-07-20
+- Add snippets
 
 ## [0.6.2] - 2018-07-19
 - Fix publish

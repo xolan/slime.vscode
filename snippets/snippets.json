@@ -1,0 +1,158 @@
+{
+	"doctype": {
+		"prefix": "doctype",
+		"body": "doctype 5",
+		"description": "HTML 5",
+		"scope": "text.slime"
+	},
+	"doctype1": {
+		"prefix": "doctype",
+		"body": "doctype strict",
+		"description": "XHTML 1.0 Strict",
+		"scope": "text.slime"
+	},
+	"doctype2": {
+		"prefix": "doctype",
+		"body": "doctype transitional",
+		"description": "XHTML 1.0 Transitional",
+		"scope": "text.slime"
+	},
+	"doctype3": {
+		"prefix": "doctype",
+		"body": "doctype 1.1",
+		"description": "XHTML 1.1",
+		"scope": "text.slime"
+	},
+	"a": {
+		"prefix": "a",
+		"body": "a href=\"${1:/}\"$0",
+		"description": "a href=\"\"",
+		"scope": "text.slime"
+	},
+	"blockquote": {
+		"prefix": "blockquote",
+		"body": "blockquote",
+		"description": "blockquote",
+		"scope": "text.slime"
+	},
+	"em": {
+		"prefix": "em",
+		"body": "em $0",
+		"description": "emphasized",
+		"scope": "text.slime"
+	},
+	"css:": {
+		"prefix": "css:",
+		"body": "css:\n\t$0",
+		"description": "filter (css)",
+		"scope": "text.slime"
+	},
+	"eex:": {
+		"prefix": "eex:",
+		"body": "eex:\n\t$0",
+		"description": "filter (eex)",
+		"scope": "text.slime"
+	},
+	"elixir:": {
+		"prefix": "elixir:",
+		"body": "elixir:\n\t$0",
+		"description": "filter (elixir)",
+		"scope": "text.slime"
+	},
+	"js:": {
+		"prefix": "js:",
+		"body": "javascript:\n\t$0",
+		"description": "filter (javascript)",
+		"scope": "text.slime"
+	},
+	"h": {
+		"prefix": "h",
+		"body": "h1 ${1:Heading Level 1}\n$0",
+		"description": "h1",
+		"scope": "text.slime"
+	},
+	"h1": {
+		"prefix": "h",
+		"body": "h2 ${1:Heading Level 2}\n$0",
+		"description": "h2",
+		"scope": "text.slime"
+	},
+	"h2": {
+		"prefix": "h",
+		"body": "h3 ${1:Heading Level 3}\n$0",
+		"description": "h3",
+		"scope": "text.slime"
+	},
+	"h3": {
+		"prefix": "h",
+		"body": "h4 ${1:Heading Level 4}\n$0",
+		"description": "h4",
+		"scope": "text.slime"
+	},
+	"h4": {
+		"prefix": "h",
+		"body": "h5 ${1:Heading Level 5}\n$0",
+		"description": "h5",
+		"scope": "text.slime"
+	},
+	"h5": {
+		"prefix": "h",
+		"body": "h6 ${1:Heading Level 6}\n$0",
+		"description": "h6",
+		"scope": "text.slime"
+	},
+	"ol": {
+		"prefix": "ol",
+		"body": "ol${1:#${2:selector}}\n\tli ${3:Lorem ipsum dolor sit amet, consectetur adipisicing elit.}$0",
+		"description": "ol",
+		"scope": "text.slime"
+	},
+	"span": {
+		"prefix": "span",
+		"body": "span $0",
+		"description": "span",
+		"scope": "text.slime"
+	},
+	"strong": {
+		"prefix": "strong",
+		"body": "strong $0",
+		"description": "strong",
+		"scope": "text.slime"
+	},
+	"tablethead": {
+		"prefix": "tablethead",
+		"body": "table\n\tthead\n\t\ttr\n\t\t\tth\n\t\t\t${1:Table Heading}\n\ttbody\n\t\ttr\n\t\t\ttd\n\t\t\t\t${2:Table Data}",
+		"description": "table (with thead)",
+		"scope": "text.slime"
+	},
+	"table": {
+		"prefix": "table",
+		"body": "table\n\ttr\n\t\ttd\n\t\t\t${1:Table Data}",
+		"description": "table (without thead)",
+		"scope": "text.slime"
+	},
+	"tbody": {
+		"prefix": "tbody",
+		"body": "tbody\n\ttr\n\t\ttd\n\t\t\t${1:Table Data} $0",
+		"description": "tbody",
+		"scope": "text.slime"
+	},
+	"thead": {
+		"prefix": "thead",
+		"body": "thead\n\ttr\n\t\tth\n\t\t\t${1:Table Heading} $0",
+		"description": "thead",
+		"scope": "text.slime"
+	},
+	"tr": {
+		"prefix": "tr",
+		"body": "tr\n\t${1:td}\n\t\t${2:Table Data} $0",
+		"description": "tr",
+		"scope": "text.slime"
+	},
+	"ul": {
+		"prefix": "ul",
+		"body": "ul${1:#${2:selector}}\n\tli ${3:Lorem ipsum dolor sit amet, consectetur adipisicing elit.}$0",
+		"description": "ul",
+		"scope": "text.slime"
+	}
+}
