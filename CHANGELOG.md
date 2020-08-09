@@ -3,6 +3,9 @@ All notable changes to the "slime" extension will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0.1] - 2020-08-09
+- Removed do/end and ->/end from autoClosingPairs
+
 ## [1.0.0] - 2018-07-20
 - Add snippets
 
