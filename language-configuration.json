@@ -18,8 +18,8 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"],
-        ["->", "end"],
-        ["do", "end"]
+        // ["->", "end"],
+        // ["do", "end"]
     ],
     // symbols that that can be used to surround a selection
     "surroundingPairs": [

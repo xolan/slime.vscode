@@ -2,7 +2,7 @@
     "name": "slime",
     "displayName": "Slime",
     "description": "Slime Language",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "xolan",
     "repository": {
         "type": "git",
@@ -36,6 +36,6 @@
             "language": "slime",
             "scopeName": "text.slime",
             "path": "./syntaxes/slime.tmLanguage"
-        }]
+        }],
     }
 }
