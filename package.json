@@ -36,6 +36,6 @@
             "language": "slime",
             "scopeName": "text.slime",
             "path": "./syntaxes/slime.tmLanguage"
-        }],
+        }]
     }
 }
