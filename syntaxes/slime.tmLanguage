@@ -529,7 +529,7 @@
 		<key>normal-html-tag</key>
 		<dict>
 			<key>begin</key>
-			<string>([\w.#_-]+=)</string>
+			<string>([\w:.#_-]+=)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -559,7 +559,7 @@
 		<key>normal-inline-html-tag</key>
 		<dict>
 			<key>begin</key>
-			<string>([\w.#_-]+)</string>
+			<string>([\w.#_-:]+)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>

@@ -10,4 +10,6 @@ html
     #id.class
       ul
         = Enum.map [1, 2], fn x ->
-          li = x
+          li:tag = x
+          li x-on:click.stop.prevent="toggle" x-on:click.away="close"
+            | Slime supports Vue/AlpineJS syntax!
