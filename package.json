@@ -23,7 +23,7 @@
         "languages": [{
             "id": "slime",
             "aliases": ["Slime", "slime"],
-            "extensions": [".slime"],
+            "extensions": [".slime", ".slim", ".slimleex"],
             "configuration": "./language-configuration.json"
         }],
         "snippets": [
